@@ -1,0 +1,65 @@
+@media (max-width:1200px){
+    /* se width menor que 1200px, joga tudo para coluna */
+    main{
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main_content{
+        width: 100%;
+        align-items: center;
+        margin-bottom: 15%;
+    }
+
+    main .main_content .text, .techs{
+        text-align: center;
+    }
+
+    main .main_content .text p{
+        width: 100%;
+        font-size: 0.9em;
+    }
+
+    main .techs .cards-container, .main_content .text p{
+        margin-top: 32px;
+    }
+    
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 2em;
+
+    }
+
+    header nav{
+        margin-top: 24px;
+
+    }
+
+    header nav a{
+        font-size: 1em;
+    }
+
+    main .techs .cards-container .card{
+        width: 60px;
+        height: 60px ;
+    }
+
+    main .main_content .text h2, .main_content .techs h2{
+        font-size: 1.8em;
+    }
+
+    main figure img{
+        width: 250px;
+        height: 250px;
+    }
+}
